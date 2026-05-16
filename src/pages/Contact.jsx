@@ -5,16 +5,16 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Kontak BAF Banyumas"
-        description="Hubungi BAF Berkah Utami Furniture untuk konsultasi desain dan pengerjaan interior custom di Banyumas."
+        title="Kontak BUF Banyumas"
+        description="Hubungi BUF Berkah Utami Furniture untuk konsultasi desain dan pengerjaan interior custom di Banyumas."
         path="/kontak"
       />
       <section className="pageHero">
         <p className="eyebrow">Kontak</p>
-        <h1>Konsultasi Interior dengan BAF</h1>
+        <h1>Konsultasi Interior dengan BUF</h1>
         <p>
           Ingin konsultasi kebutuhan interior rumah, kost, toko, kitchen set,
-          atau custom furniture? Hubungi BAF untuk diskusi awal.
+          atau custom furniture? Hubungi BUF untuk diskusi awal.
         </p>
         <a className="primaryBtn" href={SITE_DATA.whatsappUrl} target="_blank" rel="noreferrer">
           Chat WhatsApp
