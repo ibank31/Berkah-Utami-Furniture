@@ -414,3 +414,45 @@ nav a:hover {
     max-width: 100%;
   }
 }
+
+.heroImage {
+  width: 100%;
+  min-height: 390px;
+  height: 460px;
+  object-fit: cover;
+  display: block;
+  border-radius: 1.5rem;
+  background: #8b5a36;
+}
+
+.portfolioImage {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  background: #8b5a36;
+}
+
+.portfolioGrid {
+  align-items: stretch;
+}
+
+.portfolioCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolioCard > div:last-child {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .heroImage {
+    height: 320px;
+    min-height: 320px;
+  }
+
+  .portfolioImage {
+    height: 230px;
+  }
+}
