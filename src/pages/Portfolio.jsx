@@ -21,7 +21,7 @@ export default function Portfolio() {
         <div className="grid portfolioGrid">
           {PORTFOLIO.map((item) => (
             <article className="portfolioCard" key={item.title}>
-              <div className="portfolioImage">Foto proyek</div>
+              <img className="portfolioImage" src={item.image} alt={item.title} loading="lazy" />
               <div>
                 <span>{item.category}</span>
                 <h2>{item.title}</h2>

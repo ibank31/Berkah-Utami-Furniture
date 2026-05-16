@@ -2,7 +2,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import SEO from "../components/SEO";
 import { SITE_DATA } from "../data/siteData";
 import { SERVICES } from "../data/services";
-import { PORTFOLIO } from "../data/portfolio";
+import { HERO_IMAGES, PORTFOLIO } from "../data/portfolio";
 
 export default function Home() {
   return (
@@ -31,7 +31,11 @@ export default function Home() {
         </div>
 
         <div className="heroCard">
-          <div className="imagePlaceholder">Foto portofolio BAF</div>
+          <img
+            className="heroImage"
+            src={HERO_IMAGES.main}
+            alt="Jasa desain dan pengerjaan interior custom BAF Banyumas"
+          />
           <div className="heroNote">
             <strong>Desain + pengerjaan</strong>
             <span>Satu jalur dari konsultasi sampai pemasangan.</span>
@@ -95,9 +99,9 @@ export default function Home() {
           <h2>Contoh Pengerjaan Interior & Furniture</h2>
         </div>
         <div className="grid portfolioGrid">
-          {PORTFOLIO.map((item) => (
+          {PORTFOLIO.slice(0, 6).map((item) => (
             <article className="portfolioCard" key={item.title}>
-              <div className="portfolioImage">Foto proyek</div>
+              <img className="portfolioImage" src={item.image} alt={item.title} loading="lazy" />
               <div>
                 <span>{item.category}</span>
                 <h3>{item.title}</h3>
