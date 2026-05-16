@@ -10,6 +10,7 @@ export default function Home() {
       <SEO
         title="Jasa Interior Custom Banyumas"
         description="BAF melayani desain dan pengerjaan interior rumah, kost, toko, kitchen set, dan custom furniture di Banyumas."
+        path="/"
       />
 
       <section className="hero">
@@ -96,7 +97,7 @@ export default function Home() {
       <section className="section">
         <div className="sectionHead">
           <p className="eyebrow">Portofolio</p>
-          <h2>Contoh Pengerjaan Interior & Furniture</h2>
+          <h2>Contoh Desain & Pengerjaan Interior</h2>
         </div>
         <div className="grid portfolioGrid">
           {PORTFOLIO.slice(0, 6).map((item) => (
