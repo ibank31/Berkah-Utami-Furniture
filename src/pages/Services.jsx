@@ -8,6 +8,7 @@ export default function Services() {
       <SEO
         title="Layanan Interior Custom Banyumas"
         description="Layanan BAF meliputi interior rumah, kost, toko, kitchen set, custom furniture, dan desain interior di Banyumas."
+        path="/layanan"
       />
       <section className="pageHero">
         <p className="eyebrow">Layanan BAF</p>
