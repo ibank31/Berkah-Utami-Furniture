@@ -7,14 +7,14 @@ export default function Services() {
     <>
       <SEO
         title="Layanan Interior Custom Banyumas"
-        description="Layanan BAF meliputi interior rumah, kost, toko, kitchen set, custom furniture, dan desain interior di Banyumas."
+        description="Layanan BUF meliputi interior rumah, kost, toko, kitchen set, custom furniture, dan desain interior di Banyumas."
         path="/layanan"
       />
       <section className="pageHero">
-        <p className="eyebrow">Layanan BAF</p>
+        <p className="eyebrow">Layanan BUF</p>
         <h1>Layanan Desain & Pengerjaan Interior Custom</h1>
         <p>
-          BAF membantu kebutuhan interior dari tahap konsultasi, desain,
+          BUF membantu kebutuhan interior dari tahap konsultasi, desain,
           pengukuran, produksi, sampai pemasangan di lokasi.
         </p>
       </section>
