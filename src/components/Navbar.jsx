@@ -12,8 +12,15 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <Link to="/" className="brand">
-        <span>{SITE_DATA.brandShort}</span>
-        <small>{SITE_DATA.brandName}</small>
+        <img
+          className="brandLogo"
+          src="/assets/logo/logo-transparent-attempt.png"
+          alt="Logo BAF Berkah Utami Furniture"
+        />
+        <span className="brandText">
+          <strong>{SITE_DATA.brandShort}</strong>
+          <small>{SITE_DATA.brandName}</small>
+        </span>
       </Link>
 
       <nav>
